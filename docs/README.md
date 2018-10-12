@@ -81,3 +81,14 @@ chmod 755 demo.jar
 
 Start the application and open the url to [localhost](http://localhost:8080). 
 
+## Dev-tools
+Let's add a plugin that adds support for several convenient tools, like code-insight in the application.properties.
+Add the following dependency to the POM:
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+```
+
+
